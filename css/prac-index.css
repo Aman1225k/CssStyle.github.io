@@ -1,0 +1,70 @@
+#format {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#headings {
+    color: blueviolet;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+#format {
+    color: rgb(122, 4, 63);
+    background-color: rgb(163, 235, 248);
+    text-align: center;
+    font-family: ;
+}
+#lists {
+    
+    width: 200px;
+    background-color: rgb(188, 243, 253);
+    color: blue;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.ul {
+    text-align: left;
+}
+
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    
+    color: black;
+}
+button{
+    text-decoration: aqua;
+    border-radius: 100px;
+    border-color: rgba(250, 245, 245, 0);
+    border-width: 1px;
+    text-shadow: 10px;
+    float: right;
+    cursor: pointer;
+    background-color: rgb(248, 29, 29);
+    width: 36px;
+    height: 36px;
+}
+button a:link{
+    color: rgb(0, 0, 0);
+}
+button a:visited{
+    color: rgb(245, 245, 247);
+}
+button:hover{
+    box-shadow: 5px 5px 6px rgb(104, 104, 104);
+}
+#top{
+    text-align: left;
+}
+#samp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
