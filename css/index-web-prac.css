@@ -1,0 +1,114 @@
+.top-nav, #cont-btn {
+      font-family: "Urbanist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 620;
+      font-style: normal;
+      font-size: 17.3px;
+      color: rgb(49, 47, 47);
+    }
+
+.top-nav a{
+    text-decoration: none;
+    float: right;
+    margin: auto;
+    padding-right: 24px;
+    padding-left: 20px;
+    padding-top: 24px;
+    padding-bottom: 26px;
+    margin-top: 12px;
+    margin-right: 1px;
+
+}
+.top-nav{
+    position:fixed;
+    top: 0;
+    list-style-type: none;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 83px;
+    display: block;
+    background-color: white;
+    margin-right: 100px;
+}
+.top-nav a:hover{
+    border-bottom: solid;
+    border-width: 1px;
+ 
+}
+.top-nav a:link{
+    color: rgb(80, 79, 79);
+}
+.top-nav a:visited{
+    color:rgb(80, 79, 79);
+}
+.top-nav a:hover{
+    color: #F18116;
+}
+#cont-btn{
+    border: none;
+    font-size: 17px;
+    height: 49px;
+    width: 126px;
+    padding-left: 10px; 
+    border-radius: 8px;
+    background-color: #F18116;
+    color: white;
+}
+#cont-btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+    animation: ease-out;
+    box-shadow: 0px 8px 10px 0px rgb(216, 215, 215);
+}
+#welkin-img {
+    position: absolute;
+    margin-left: 112px;
+    margin-top: 8px;
+}
+body{
+    background-color: #f3f3f4 ;
+}
+#award{
+    color: #F18116;
+    margin-top: 198px;
+    margin-left: 112px;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 510;
+    font-style: normal;
+    font-size: 17px;
+    
+}
+#heading1, #heading2{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 112px;
+ 
+}
+#heading1{
+    color: rgb(52, 63, 82);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+  
+}
+#heading2{
+    color: #F18116;
+    padding-top: 0;
+    margin-top: 0;
+}
+#para1{
+    margin-left: 112px;
+    width: 535px;
+    font-size: 25px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 460;
+    font-style: normal;
+    color:#6d7583 ;
+}
