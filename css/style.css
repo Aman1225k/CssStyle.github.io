@@ -1,12 +1,20 @@
-.top-nav, #cont-btn {
-      font-family: "Urbanist", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 620;
-      font-style: normal;
-      font-size: 17.3px;
-      color: rgb(49, 47, 47);
-    }
+body{
+    margin: 0;
+}
 
+#award, #heading1, #heading2, #start{
+    background-color: rgb(243, 243, 250);
+}
+body{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    }
+.top-nav, #cont-btn{
+    font-weight: 620;  
+    font-size: 17.3px;
+    color: rgb(49, 47, 47);
+}
 .top-nav a{
     text-decoration: none;
     float: right;
@@ -20,7 +28,7 @@
 
 }
 .top-nav{
-    position:fixed;
+    position:absolute;
     top: 0;
     list-style-type: none;
     z-index: -1;
@@ -58,7 +66,7 @@
 #cont-btn:hover{
     text-decoration: none;
     cursor: pointer;
-    animation: ease-out;
+    animation:ease-out ;
     box-shadow: 0px 8px 10px 0px rgb(216, 215, 215);
 }
 #welkin-img {
@@ -74,18 +82,13 @@ body{
     margin-top: 198px;
     margin-left: 112px;
     margin-bottom: 20px;
-    font-family: "Urbanist", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 510;
-    font-style: normal;
     font-size: 17px;
     
 }
 #heading1, #heading2{
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
+
   font-weight: 600;
-  font-style: normal;
   font-size: 50px;
   margin-left: 112px;
  
@@ -101,14 +104,51 @@ body{
     color: #F18116;
     padding-top: 0;
     margin-top: 0;
+    margin-bottom: 20px;
 }
 #para1{
     margin-left: 112px;
+    margin-top: 0px;
+
     width: 535px;
-    font-size: 25px;
+    font-size: 24px;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 460;
     font-style: normal;
-    color:#6d7583 ;
+    color:#616e85 ;
 }
+#cloud-png{
+    margin-top: 30px;
+    width: 100%;
+}
+#start-project-btn{
+    margin-left: 112px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F18116;
+    color: white;
+    height:58px;
+    width: 194px;
+    font-size: 17px;
+    font-weight: 620;  
+   
+}
+#start-project-btn:hover{
+    cursor: pointer;
+}
+#head-what{
+    text-align: center;
+    color: #F18116;
+    font-size: 15.8px;
+    font-weight: 600;
+}
+#center-grow{
+    text-align: center;
+    color:rgb(52, 63, 82) ;
+}
+#para-tempus{
+    text-align: center;
+}
+
+
