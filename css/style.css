@@ -94,7 +94,9 @@ body {
 body {
     background-color: #f3f3f4;
 }
-
+.head-discp{
+    align-items: center;
+}
 #award {
     color: #F18116;
     margin-top: 198px;
@@ -145,7 +147,7 @@ width: 532px;
 #img-main{
     float: right;
     width: 550px;
-    height: 520px;
+    height: 500px;
 }
 #cloud-png {
     margin-top: 30px;
